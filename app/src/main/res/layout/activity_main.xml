@@ -43,7 +43,7 @@
         android:id="@+id/word_textview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Word"
+        tools:text="Word"
         android:textStyle="bold"
         android:layout_marginTop="8dp"
         android:textSize="30sp"
@@ -53,7 +53,7 @@
         android:id="@+id/phonetic_textview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="/ t e s t /"
+        tools:text="/ t e s t /"
         android:textColor="@color/grey"/>
 
     <androidx.recyclerview.widget.RecyclerView
